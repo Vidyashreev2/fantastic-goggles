@@ -1,0 +1,52 @@
+#!/bin/sh
+n=434
+sum=0
+rev=""
+temp=$n
+while ($n -gt 0 );
+do
+ sum=$(($n%10))
+ n= $(($n/10))
+ rev=$(echo ${rev}${s})
+ echo rev
+ 
+done
+if ($temp -eq $rev);
+then
+ echo "Number is palindrom"
+else 
+ echo "Number is not palindrom"
+fi 
+ 
+done
+if ($temp -eq $rev);
+then
+ echo "Number is palindrom"
+else 
+ echo "Number is not palindrom"
+fi 
+ 
+done
+if ($temp -eq $rev);
+then
+ echo "Number is palindrom"
+else 
+ echo "Number is not palindrom"
+fi 
+ 
+done
+if ($temp -eq $rev);
+then
+ echo "Number is palindrom"
+else 
+ echo "Number is not palindrom"
+fi 
+ 
+done
+if ($temp -eq $rev);
+then
+ echo "Number is palindrom"
+else 
+ echo "Number is not palindrom"
+fi 
+ 
